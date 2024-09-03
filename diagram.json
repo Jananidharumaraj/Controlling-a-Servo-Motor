@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Janani Dharumaraj",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 58.2, "left": -0.6, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": -59.6, "left": 38.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "servo1:V+", "uno:5V", "green", [ "h115.2", "v249.7" ] ],
+    [ "servo1:GND", "uno:GND.1", "black", [ "h76.8", "v76.8" ] ],
+    [ "servo1:PWM", "uno:9", "green", [ "h124.8", "v57.8" ] ]
+  ],
+  "dependencies": {}
+}
